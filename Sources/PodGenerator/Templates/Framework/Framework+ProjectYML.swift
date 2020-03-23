@@ -56,7 +56,7 @@ extension FrameworkTemplates {
 
                 settings:
                   CODE_SIGN_STYLE: "Manual"
-                  DEVELOPMENT_TEAM: "B7G6QF44XW"
+                  DEVELOPMENT_TEAM: ""
                   PRODUCT_BUNDLE_IDENTIFIER: br.com.mobile.\(podName)
                   INFOPLIST_FILE: \(podName)/Info.plist
 

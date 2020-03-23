@@ -51,7 +51,7 @@ extension SampleAppTemplates {
                   PRODUCT_BUNDLE_IDENTIFIER: br.com.rico.mobile.SampleApp
                   INFOPLIST_FILE: SampleApp/Info.plist
                   CODE_SIGN_STYLE: "Manual"
-                  DEVELOPMENT_TEAM: "B7G6QF44XW"
+                  DEVELOPMENT_TEAM: ""
                   PROVISIONING_PROFILE: "Wildcard"
                   
                   ENABLE_BITCODE: "NO"

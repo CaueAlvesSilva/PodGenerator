@@ -13,7 +13,7 @@ class WorkspaceGenerator: GeneratorType {
     static func generate(_ podName: String, _ rootFolder: Folder) throws {
         do {
             
-            let script = try rootFolder.createFile(at: "genWorkspace.sh")
+            let script = try rootFolder.createFile(named: "genWorkspace.sh")
             try script.write(WorkspaceTemplates.script(podName))
             
             let terminalTask = Process()
