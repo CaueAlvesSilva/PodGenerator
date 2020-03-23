@@ -46,7 +46,7 @@ Navigate to your repo directory and simply run:
 podgen YourPodName
 ```
 
-The above folders and files structure will be created:
+The below folders and files structure will be created:
 ```
 YourPodName
 │ - Gemfile
