@@ -12,7 +12,8 @@ class FrameworkGenerator: GeneratorType {
     
     static func generate(_ podName: String, _ rootFolder: Folder) throws {
         do {
-            logHeader("Creating \(podName) Framework")
+            
+            log("Creating \(podName) framework files")
             
             let projectYML = try rootFolder.createFile(named: "project.yml")
             try projectYML.write(FrameworkTemplates.projectYML(podName))

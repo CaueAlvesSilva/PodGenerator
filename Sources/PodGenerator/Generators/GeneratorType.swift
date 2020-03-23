@@ -15,7 +15,7 @@ protocol GeneratorType: class {
 
 extension GeneratorType {
     
-    static func logHeader(_ header: String) {
+    static func log(_ header: String) {
         print("\n")
         print(String(repeating: "=", count: 50))
         print(">> \(header)")

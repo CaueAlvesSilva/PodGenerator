@@ -20,6 +20,7 @@ public final class CommandLineTool {
 
     public func run() throws {
         do {
+            
             guard let podName = podName, !podName.isEmpty else {
                 throw PodGeneratorErrors.MissingPodNameArgument
             }
@@ -28,6 +29,7 @@ public final class CommandLineTool {
             let podFolder = try Folder.current.createSubfolder(named: podName)
             try FrameworkGenerator.generate(podName, podFolder)
             try SampleAppGenerator.generate(podName, podFolder)
+            try WorkspaceGenerator.generate(podName, Folder.current)
             logEnd(podName)
             
         } catch {

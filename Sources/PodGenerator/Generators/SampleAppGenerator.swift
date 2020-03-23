@@ -12,7 +12,8 @@ class SampleAppGenerator: GeneratorType {
     
     static func generate(_ podName: String, _ rootFolder: Folder) throws {
         do {
-            logHeader("Creating Sample App")
+            
+            log("Creating SampleApp files")
             
             let projectFolder = try rootFolder.createSubfolder(named: "SampleApp")
             

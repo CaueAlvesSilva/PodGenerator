@@ -12,10 +12,12 @@ public enum PodGeneratorErrors: Swift.Error {
     case MissingPodNameArgument
     case SampleAppCreationFailure
     case FrameworkCreationFailure
+    case WorkspaceGenerationFailure
 }
 
 public struct SampleAppTemplates {}
 public struct FrameworkTemplates {}
+public struct WorkspaceTemplates {}
 
 public extension CommandLineTool {
     
