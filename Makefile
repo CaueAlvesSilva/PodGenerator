@@ -16,4 +16,8 @@ install: build
 uninstall:
 	rm -f $(installPath)
 
-.PHONY: build clean install uninstall
+project:
+	swift package generate-xcodeproj
+	open PodGenerator.xcodeproj
+
+.PHONY: build clean install uninstall project
