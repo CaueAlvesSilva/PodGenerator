@@ -4,6 +4,7 @@ basePath = /usr/local/bin
 installPath = $(basePath)/$(executableName)
 
 build:
+	sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 	swift build --disable-sandbox -c release
 
 clean:
