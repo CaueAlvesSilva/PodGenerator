@@ -3,7 +3,7 @@
     <a href="https://swift.org/package-manager">
         <img src="https://img.shields.io/badge/built-Swift%20Package%20Manager-brightgreen" />
     </a>
-    <img src="https://img.shields.io/badge/Version-0.1.0-red" />
+    <img src="https://img.shields.io/badge/Version-0.1.1-red" />
     <a href="https://www.linkedin.com/in/cauealvessilva/">
         <img src="https://img.shields.io/badge/Contact-CaueAlves-blue" />
     </a>
