@@ -33,7 +33,7 @@ extension WorkspaceTemplates {
             echo
 
             cd \(podName)
-            sudo gem install bundler
+            gem install bundler
             bundle install
             bundle update --bundler
             #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
