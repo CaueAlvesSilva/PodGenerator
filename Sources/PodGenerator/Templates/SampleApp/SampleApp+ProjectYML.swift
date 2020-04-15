@@ -28,6 +28,7 @@ extension SampleAppTemplates {
               CODE_SIGN_IDENTITY: "iPhone Developer"
               CLANG_ENABLE_OBJC_WEAK: "YES"
               ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: "YES"
+              ARCHS: $(ARCHS_STANDARD)
 
             options:
               xcodeVersion: "11.1"
@@ -57,6 +58,7 @@ extension SampleAppTemplates {
                   ENABLE_BITCODE: "NO"
                   TARGETED_DEVICE_FAMILY: "1"
                   LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"
+                  ARCHS: $(ARCHS_STANDARD)
 
             #==================================================================================================
             """
