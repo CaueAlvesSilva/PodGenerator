@@ -49,7 +49,7 @@ extension SampleAppTemplates {
                   - path: SampleApp
 
                 settings:
-                  PRODUCT_BUNDLE_IDENTIFIER: br.com.rico.mobile.SampleApp
+                  PRODUCT_BUNDLE_IDENTIFIER: br.com.mobile.SampleApp
                   INFOPLIST_FILE: SampleApp/Info.plist
                   CODE_SIGN_STYLE: "Manual"
                   DEVELOPMENT_TEAM: ""
